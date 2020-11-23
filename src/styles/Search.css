@@ -1,0 +1,22 @@
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-button {
+    background-color: #faf2f3;
+    margin-left: 5px;
+}
+
+input,
+.search-button {
+    border-width: 2px;
+    border-color: #be0018;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+input:focus,
+.search-button:focus {
+    outline-style: outset;
+}
